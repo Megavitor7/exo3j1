@@ -1,0 +1,66 @@
+.column {
+    width: 33%;
+    padding: 0 15px;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  .card {
+    width: 450px;
+    height: 450px;
+    background:  0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .card:hover
+  {
+    background-color: purple;
+  }
+  .card-title {
+    text-align: center;
+    font: normal normal bold 63px/84px Segoe UI;
+    letter-spacing: 0px;
+    color: #4a4949;
+    opacity: 1;
+  }
+  .card-text {
+    text-align: center;
+    font: normal normal bold 24px/32px Segoe UI;
+    letter-spacing: 0px;
+    color: #4a4949;
+    opacity: 1;
+    margin-top: 0%;
+  }
+  .button {
+    background-color: purple; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 160px;
+  }

@@ -1,0 +1,51 @@
+.img1{
+float: left;
+width: 50%;
+}
+.img2{
+float: right;
+width: 50%;
+}
+.img3{
+float: left;
+}
+.firstdiv{
+    margin-left: 150px;
+}
+.text1{
+    
+}
+.firstdiv{
+    width: auto;
+}
+.seconddiv{
+    margin-left: 150px;
+}
+.sec1{
+    display: flex;
+    margin: auto;
+    margin: auto;
+}
+.text2{
+    width: 50%;
+}
+body{
+    margin-left: 200px;
+}
+.lastt{
+    margin-right: 5px;
+    width: 50%;
+}
+.button{
+    background-color: purple; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 180px;
+}
